@@ -4,10 +4,18 @@
 
 .larger_screen {display: none;}
 
+@media only screen and (min-width: 22em) {
+  .headline_content {font-size: 1em;}
+  .copy_content {font-size: .85em;}
+  .larger_screen {display: inline-block;}
+  #grid header {height:5.75em;}
+}
+
 @media only screen and (min-width: 32em) {
   .headline_content {font-size: 1em;}
   .copy_content {font-size: .85em;}
   .larger_screen {display: inline-block;}
+  #grid header {height:3.75em;}
 }
 
 @media only screen and (min-width: 42em) {
@@ -19,6 +27,7 @@
     font-size: 1.1em;
     line-height: 1.45;
   }
+  #grid header {height:3.5em;}
 }
 
 @media only screen and (min-width: 50em) {
@@ -27,14 +36,14 @@
   }
   .headline_content {font-size: 1.2em; }
   .copy_content {font-size: .9em;}
-
+  #grid header {height:3.25em;}
 }
 
 @media only screen and (min-width: 64.5em) {
   body {
     font-size: 1.4em;
   }
-
+  #grid header {height:3.25em;}
 }
 
 @media only screen and (min-width: 78em) {
@@ -49,12 +58,13 @@
   .about_projects {
     font-size: .5em;
   }
+  #grid header {height: 2.25em;}
 }
 
 @media only screen and (min-width: 90em) {
   body {
     font-size: 1.8em;
   }
-
+  #grid header {height: 2.25em;}
 }
 

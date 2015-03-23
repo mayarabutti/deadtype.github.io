@@ -8,7 +8,7 @@
   .headline_content {font-size: 1em;}
   .copy_content {font-size: .85em;}
   .larger_screen {display: inline-block;}
-  #grid header {height:5.75em;}
+  #grid header {height:5.75em; border:1px solid white;}
 }
 
 @media only screen and (min-width: 32em) {
